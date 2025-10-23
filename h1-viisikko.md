@@ -25,7 +25,7 @@ Public tiedosto sisältää Salt Projectin julkisen PGP-avaimen, joka on ASCII-m
 Salt.sources tiedostossa määritetään mistä osoitteesta paketit ladataan ja mihin PGP-avain tallentuu
 <img width="1280" height="800" alt="2 less salt sources" src="https://github.com/user-attachments/assets/98964146-38e7-4e81-b173-cde5ef6dbf59" />
 
-Avaimen aitouden ja sormenjäljen voidaan tarkastaa:
+Avaimen aitous ja sormenjäki tarkistettiin:
 
 <img width="1280" height="800" alt="3 gpg show key" src="https://github.com/user-attachments/assets/d248fc06-4d0b-4067-9035-69cbb6a5a386" />
 
