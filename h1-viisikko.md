@@ -15,6 +15,7 @@ $ mkdir saltrepo/
 $ cd saltrepo/
 
 Ladattiin tarvittavat tiedostot:
+
 $ wget https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public
 
 $ wget https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources
