@@ -4,7 +4,8 @@ x)
 
 a)
 
-b) Asenna Salt(salt-minion)
+## b) Asenna Salt(salt-minion)
+
 Saltin asennuksen saloittamiseksi tarvittiin wget-ohjelma tiedostojen lataamiseen, joka asennettiin seuraavasti:
 $ sudo apt-get update
 $ sudo apt-get install wget
