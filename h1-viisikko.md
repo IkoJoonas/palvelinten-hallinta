@@ -84,6 +84,7 @@ $ sudo cp salt.sources /etc/apt/sources.list.d/
 
 Kun olin tarkistanut, että tiedostot varmasti löytyvät, asensin Salt-ohjelmistot:
 $ sudo apt-get update
+
 $ sudo apt-get install salt-minion salt-master
 
 Komennolla: $ salt --version varmistin, että asennus on onnistunut
@@ -91,14 +92,17 @@ Komennolla: $ salt --version varmistin, että asennus on onnistunut
 
 Kokeilin vielä salt-komennolla toimivuuden:
 $ sudo salt-call --local state.single file.managed /tmp/hellotero
+
 $ ls /tmp/hellotero 
 <img width="1280" height="800" alt="6 is it really there" src="https://github.com/user-attachments/assets/478e6057-a6ba-4313-9334-cfef8b75d4cf" />
 
 Asensin Salt-minionin:
 $ sudo apt-get update
+
 $ sudo apt-get -y install salt-minion
 
 Tarkistin asennetun version:
+
 $ sudo salt-call --version
 <img width="1280" height="800" alt="7 saltcall versio" src="https://github.com/user-attachments/assets/014f8a67-81b5-44ae-9ee3-c8f7eecf5dfd" />
 
