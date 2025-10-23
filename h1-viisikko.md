@@ -9,6 +9,7 @@ a)
 Saltin asennuksen aloittamiseksi tarvittiin wget-ohjelma tiedostojen lataamiseen, joka asennettiin seuraavasti:
 
 $ sudo apt-get update
+
 $ sudo apt-get install wget
 
 Asennnuksen jälkeen luotiin uusi hakemista saltrepo/ ja siirryttiin sinne:
