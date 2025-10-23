@@ -2,7 +2,27 @@
 
 ## x)
 
+Karvinen 2025: https://terokarvinen.com/install-salt-on-debian-13-trixie/
 
+-Asenna wget
+-Lataa ja kopioi Salt-projektin julkinen avain ja lähdelista tiedostot
+-Testaa Salt:in asennus
+
+Karvinen 2023: https://terokarvinen.com/2021/salt-run-command-locally/
+
+-Linuxissa kaikki asetukset ovat vain tekstitiedostoja
+
+Karvinen 2018: https://terokarvinen.com/2018/03/28/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/
+
+-Master-koneella pitää olla julkinen palvelin ja osoite
+-Slave-koneelle on lisättävä master-koneen IP-osoite
+-Master-koneella pitää hyväksyä slave-avain
+
+Karvinen 2006: https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/
+
+-Raportin on oltavat toistettava
+-Helppolukuinen
+-Lähdeviittaukset on oltava
 
 ## a) Asenna Debian 13-Trixie virtuaalikoneeseen
 
@@ -116,3 +136,9 @@ Tämä on idempotenssi, koska toistettu ajaminen ei muuttanut lopputulosta
 <img width="1280" height="800" alt="VirtualBox_DebianJoonasI_23_10_2025_10_00_40" src="https://github.com/user-attachments/assets/5fb81adf-acc7-4cbe-b614-12dab11aab24" />
 <img width="1280" height="800" alt="VirtualBox_DebianJoonasI_23_10_2025_10_01_08" src="https://github.com/user-attachments/assets/882ddd6e-deb3-4f90-b343-6942d37e0a6e" />
 
+## Lähteet
+
+Karvinen 2025: https://terokarvinen.com/install-salt-on-debian-13-trixie/
+Karvinen 2023: https://terokarvinen.com/2021/salt-run-command-locally/
+Karvinen 2018: https://terokarvinen.com/2018/03/28/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/
+Karvinen 2006: https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/
