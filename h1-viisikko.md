@@ -103,4 +103,5 @@ Creates="/tmp/foo" tekee tästä idempotentin
 
 <img width="1280" height="800" alt="17 running command" src="https://github.com/user-attachments/assets/9d4a1eca-0619-439e-8ba1-313429151be4" />
 
-## d)
+## d) Idempotentti
+
