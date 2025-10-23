@@ -107,6 +107,8 @@ Creates="/tmp/foo" tekee tästä idempotentin
 
 Komento: $ sudo salt-call --local -l info state.single file.managed /tmp/hellotero
 
+Ensimmäisellä kerralla komento luo /tmp/hellotero ,mutta toisella ajo kerralla tulee komentti "file exists no changes made"
+Tämä on idempotenssi, koska toistettu ajaminen ei muuttanut lopputulosta
 <img width="1280" height="800" alt="VirtualBox_DebianJoonasI_23_10_2025_10_00_40" src="https://github.com/user-attachments/assets/5fb81adf-acc7-4cbe-b614-12dab11aab24" />
 <img width="1280" height="800" alt="VirtualBox_DebianJoonasI_23_10_2025_10_01_08" src="https://github.com/user-attachments/assets/882ddd6e-deb3-4f90-b343-6942d37e0a6e" />
 
