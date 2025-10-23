@@ -139,6 +139,9 @@ Tämä on idempotenssi, koska toistettu ajaminen ei muuttanut lopputulosta
 ## Lähteet
 
 Karvinen 2025: https://terokarvinen.com/install-salt-on-debian-13-trixie/
+
 Karvinen 2023: https://terokarvinen.com/2021/salt-run-command-locally/
+
 Karvinen 2018: https://terokarvinen.com/2018/03/28/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/
+
 Karvinen 2006: https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/
