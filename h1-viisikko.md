@@ -1,6 +1,6 @@
 # h1 Viisikko
 
-## x)
+## x) Lue ja tiivistä
 
 Karvinen 2025: https://terokarvinen.com/install-salt-on-debian-13-trixie/
 
