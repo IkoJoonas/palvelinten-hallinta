@@ -77,12 +77,15 @@ Avaimen aitous ja sormenjäki tarkistettiin:
 <img width="1280" height="800" alt="3 gpg show key" src="https://github.com/user-attachments/assets/d248fc06-4d0b-4067-9035-69cbb6a5a386" />
 
 Seuraavaksi annoin luottamuksen Salt-projektille ja lisättiin avain ja lähdetiedosto järjestelmään:
+
 $ sudo cp public /etc/apt/keyrings/salt-archive-keyring.pgp
+
 $ sudo cp salt.sources /etc/apt/sources.list.d/
 
 <img width="1280" height="800" alt="4 trust and install repository" src="https://github.com/user-attachments/assets/a481b34a-4c38-49e6-a173-d48cf6df9402" />
 
 Kun olin tarkistanut, että tiedostot varmasti löytyvät, asensin Salt-ohjelmistot:
+
 $ sudo apt-get update
 
 $ sudo apt-get install salt-minion salt-master
