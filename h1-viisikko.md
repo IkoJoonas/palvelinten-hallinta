@@ -1,5 +1,14 @@
 # h1 Viisikko
 
+## Laitteisto
+
+Host: MacBook Air M2 2022 16Gt Ram
+
+Guest: Oracle VM VirtualBox 7.2.0
+Virtuaalikoneena: Debian GNU/Linux 13.1.0 ”Trixie”
+Ram: 4GB
+Levytila: 60GB
+CPU: 1
 ## x) Lue ja tiivistä
 
 Karvinen 2025: https://terokarvinen.com/install-salt-on-debian-13-trixie/
