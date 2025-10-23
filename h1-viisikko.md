@@ -61,6 +61,7 @@ $ sudo salt-call --version
 ## c) Viisi tärkeintä Salt tilafunkitoa
 
 1. pkg
+
 Komento: $ sudo salt-call --local -l info state.single pkg.installed tree
 varmistaa, että tree paketti on asennettuna.
 Result: True, onnistui
@@ -69,6 +70,7 @@ Result: True, onnistui
 <img width="1280" height="800" alt="8 pkg installed tree" src="https://github.com/user-attachments/assets/36a80574-61ca-40bc-ad6e-ccd90ac10346" />
 
 2. file
+
 Komento: $ sudo salt-call --local -l info state.single file.managed /tmp/moitero contents="foo"
 luo ja päivittää tiedoston sisällöksi tekstin "foo"
    
@@ -76,6 +78,7 @@ luo ja päivittää tiedoston sisällöksi tekstin "foo"
 
 
 3. service
+
 Komento: $ sudo salt-call --local -l info state.single service.running apache2 enable=True
 varmistaa, että Apache2 on käynnissä ja käynnistyy automaattisesti bootissa
 Changed=1, ei ollut käynnissä ennen komennon ajoa
@@ -84,6 +87,7 @@ Changed=1, ei ollut käynnissä ennen komennon ajoa
 
 
 4. user
+
 Komento: $ sudo salt-call --local -l info state.single user.present terote08
 luo käyttäjän terote08
 Ei tullut virheitä, joten käyttäjää ei ollut vielä luotuna
@@ -91,6 +95,7 @@ Ei tullut virheitä, joten käyttäjää ei ollut vielä luotuna
 <img width="1280" height="800" alt="15 user present" src="https://github.com/user-attachments/assets/4d20090c-71d1-41ad-8a42-8aebf2a895df" />
 
 5. cmd
+
 Komento: $ sudo salt-call --local -l info state.single cmd.run 'touch /tmp/foo' creates="/tmp/foo"
 suorittaa komennon jos tiedostoa /tmp/foo ei ole vielä olemassa
 Creates="/tmp/foo" tekee tästä idempotentin
@@ -98,4 +103,4 @@ Creates="/tmp/foo" tekee tästä idempotentin
 
 <img width="1280" height="800" alt="17 running command" src="https://github.com/user-attachments/assets/9d4a1eca-0619-439e-8ba1-313429151be4" />
 
-
+## d)
