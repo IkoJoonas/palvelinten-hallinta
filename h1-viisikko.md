@@ -58,3 +58,15 @@ Tarkistin asennetun version:
 $ sudo salt-call --version
 <img width="1280" height="800" alt="7 saltcall versio" src="https://github.com/user-attachments/assets/014f8a67-81b5-44ae-9ee3-c8f7eecf5dfd" />
 
+## c) Viisi tärkeintä Salt tilafunkitoa
+
+1. pkg
+Komento: $ sudo salt-call --local -l info state.single pkg.installed tree
+varmistaa, että tree paketti on asennettuna.
+Result: True, onnistui
+
+
+<img width="1280" height="800" alt="8 pkg installed tree" src="https://github.com/user-attachments/assets/36a80574-61ca-40bc-ad6e-ccd90ac10346" />
+
+
+   
