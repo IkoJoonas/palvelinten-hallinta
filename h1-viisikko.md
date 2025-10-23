@@ -2,7 +2,9 @@
 
 x)
 
-a)
+## a) Asenna Debian 13-Trixie virtuaalikoneeseen
+
+Ei ollut ongelmia
 
 ## b) Asenna Salt(salt-minion)
 
