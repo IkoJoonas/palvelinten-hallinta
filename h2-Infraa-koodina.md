@@ -14,8 +14,19 @@ Levytila: 60GB
 
 CPU: 1 
 
-## x)
+## x) Lue ja tiivistä
 
+Karvinen 2014: https://terokarvinen.com/2024/hello-salt-infra-as-code/ 
+
+-Komento: $ sudo salt-call --local state.apply, suorittaa paikallisesti.
+
+Salt contributors: https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml
+
+-Sisennys tapahtuu kahdella välilyönnillä tai lisäämällä kaksi lisää edelliseen.
+
+Salt contributors: https://docs.saltproject.io/en/latest/ref/states/top.html
+
+-Saltissa koneryhmien hallintaan käytetään top file-tiedostoa
 
 ## a)
 
@@ -111,3 +122,22 @@ Tarkistin, että sls-tiedosto on idempotentti:
 
 <img width="1280" height="800" alt="d) idempotentti" src="https://github.com/user-attachments/assets/74a38ff9-d948-41e0-b445-175e10a8c7af" />
 
+## Lähteet
+
+Karvinen 2014: https://terokarvinen.com/2024/hello-salt-infra-as-code/
+
+Salt contributors: https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml, kohdat
+
+Rules of YAML
+
+YAML simple structure
+
+Lists and dictionaries - YAML block structures
+
+Salt contributors: https://docs.saltproject.io/en/latest/ref/states/top.html, kohdat
+
+Introduction
+
+A basic example
+
+Copilot: kohtien c) ja d) sls-tiedostojen sisällön luontiin
