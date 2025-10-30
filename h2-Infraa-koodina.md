@@ -103,5 +103,11 @@ Varmistin, että kaikki toimii odotetusti:
 
 ## d)
 
+Loin uuden testi moduulin ja sen sisälle .sls tiedoston, joka käyttää tilafunktioita user ja service:
 
+<img width="1280" height="800" alt="d) demo käyttäjän luonti lyonti" src="https://github.com/user-attachments/assets/c21c8cc4-986c-4f35-ae65-30e96912c4cd" />
+
+Tarkistin, että sls-tiedosto on idempotentti:
+
+<img width="1280" height="800" alt="d) idempotentti" src="https://github.com/user-attachments/assets/74a38ff9-d948-41e0-b445-175e10a8c7af" />
 
