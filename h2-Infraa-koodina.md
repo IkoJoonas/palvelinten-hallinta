@@ -55,4 +55,10 @@ Ja sen sisällöksi:
 
 base:
   '*':
+ 
     - 
+
+Tältä top.sls näytti kokonaisuudessaan tehtävän d) jälkeen:
+
+<img width="1280" height="800" alt="b) kohta sisältö" src="https://github.com/user-attachments/assets/9c96746e-eac9-462f-be49-32d412cf95b5" />
+
