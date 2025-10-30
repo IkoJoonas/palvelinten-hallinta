@@ -116,6 +116,7 @@ Cmd:
 
 <img width="1280" height="800" alt="cmd sisältö" src="https://github.com/user-attachments/assets/9f4dbb5e-a5d8-47a5-aa31-d83a954e7348" />
 
+
 Varmistin, että kaikki toimii odotetusti (--state-output=terse -l quiet lisätty helpottamaan dokumentointia):
 
 <img width="1280" height="800" alt="c) kohdan loppu" src="https://github.com/user-attachments/assets/fc96b14f-3d5d-4338-af0a-9a981e28b222" />
