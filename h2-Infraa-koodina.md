@@ -63,3 +63,35 @@ Tältä top.sls näytti kokonaisuudessaan tehtävän d) jälkeen:
 
 <img width="1280" height="800" alt="b) kohta sisältö" src="https://github.com/user-attachments/assets/9c96746e-eac9-462f-be49-32d412cf95b5" />
 
+Top.sls pystyy suorittamaan komennolla:
+
+$ sudo salt-call --local state.apply
+
+## c)
+
+Loin kaikille omat moduulit:
+
+<img width="1280" height="800" alt="viisikko tiedostossa" src="https://github.com/user-attachments/assets/31cfc42c-c47e-44c1-84f0-0f18b9a9bd31" />
+
+Jokaiselle omat .sls tiedostot ja sisältö niihin:
+
+Pkg:
+
+<img width="1280" height="800" alt="moipkg sisältö" src="https://github.com/user-attachments/assets/892d6d74-4c23-44ee-9edc-07a2947e41c5" />
+
+File:
+
+<img width="1280" height="800" alt="file sisältö" src="https://github.com/user-attachments/assets/4c80ee29-763f-4469-9fcf-e05c0c7bbfc3" />
+
+Service:
+
+<img width="1280" height="800" alt="moiservice sisältö" src="https://github.com/user-attachments/assets/ba06f978-9ffe-4f88-aa76-987a5748a217" />
+
+User:
+
+<img width="1280" height="800" alt="moiuser sisältö" src="https://github.com/user-attachments/assets/019ea327-efa2-4c8b-86f2-f642282aaaa0" />
+
+Cmd:
+
+<img width="1280" height="800" alt="cmd sisältö" src="https://github.com/user-attachments/assets/9f4dbb5e-a5d8-47a5-aa31-d83a954e7348" />
+
