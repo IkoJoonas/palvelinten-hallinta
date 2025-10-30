@@ -42,7 +42,7 @@ Tämän sisälle kirjoitin seuraavan:
 
 <img width="1280" height="800" alt="sudoedit" src="https://github.com/user-attachments/assets/0cd25747-a3d4-457f-998e-ed0147494fcf" />
 
-Ajoin moduulin paikallisesti komennolla:
+Suoritin moduulin paikallisesti komennolla:
 
 $ sudo salt-call --local stato.apply moi
 
