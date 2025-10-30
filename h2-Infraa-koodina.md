@@ -76,7 +76,7 @@ Tältä top.sls näytti kokonaisuudessaan tehtävän d) jälkeen:
 
 Top.sls pystyy suorittamaan komennolla:
 
-$ sudo salt-call --local state.apply
+$ sudo salt-call --local state.apply (--state-output=terse -l quit lisätty helpottamaan dokumentointia)
 
 <img width="1280" height="800" alt="b) kohta tehtävän lopussa" src="https://github.com/user-attachments/assets/667c1506-358c-4f7b-b13b-0b51f2ed8639" />
 
@@ -108,7 +108,7 @@ Cmd:
 
 <img width="1280" height="800" alt="cmd sisältö" src="https://github.com/user-attachments/assets/9f4dbb5e-a5d8-47a5-aa31-d83a954e7348" />
 
-Varmistin, että kaikki toimii odotetusti:
+Varmistin, että kaikki toimii odotetusti (--state-output=terse -l quit lisätty helpottamaan dokumentointia):
 
 <img width="1280" height="800" alt="c) kohdan loppu" src="https://github.com/user-attachments/assets/fc96b14f-3d5d-4338-af0a-9a981e28b222" />
 
