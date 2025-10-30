@@ -67,6 +67,8 @@ Top.sls pystyy suorittamaan komennolla:
 
 $ sudo salt-call --local state.apply
 
+<img width="1280" height="800" alt="b) kohta tehtävän lopussa" src="https://github.com/user-attachments/assets/667c1506-358c-4f7b-b13b-0b51f2ed8639" />
+
 ## c)
 
 Loin kaikille omat moduulit:
@@ -98,5 +100,8 @@ Cmd:
 Varmistin, että kaikki toimii odotetusti:
 
 <img width="1280" height="800" alt="c) kohdan loppu" src="https://github.com/user-attachments/assets/fc96b14f-3d5d-4338-af0a-9a981e28b222" />
+
+## d)
+
 
 
