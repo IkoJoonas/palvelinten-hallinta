@@ -92,17 +92,25 @@ Pkg:
 
 <img width="1280" height="800" alt="moipkg sisältö" src="https://github.com/user-attachments/assets/892d6d74-4c23-44ee-9edc-07a2947e41c5" />
 
+(Kuvankaappausta otettaessa unohdettu sudo)
+
 File:
 
 <img width="1280" height="800" alt="file sisältö" src="https://github.com/user-attachments/assets/4c80ee29-763f-4469-9fcf-e05c0c7bbfc3" />
+
+(Kuvankaappausta otettaessa unohdettu sudo)
 
 Service:
 
 <img width="1280" height="800" alt="moiservice sisältö" src="https://github.com/user-attachments/assets/ba06f978-9ffe-4f88-aa76-987a5748a217" />
 
+(kuvankaappausta otettaessa unohdettu sudo)
+
 User:
 
 <img width="1280" height="800" alt="moiuser sisältö" src="https://github.com/user-attachments/assets/019ea327-efa2-4c8b-86f2-f642282aaaa0" />
+
+(Kuvankaappausta otettaessa unohdettu sudo)
 
 Cmd:
 
