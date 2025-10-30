@@ -54,6 +54,7 @@ $ sudoedit /srv/salt/top.sls
 Ja sen sisällöksi:
 
 base:
+
   '*':
  
     - 
