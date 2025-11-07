@@ -42,3 +42,26 @@ Tehtävä oli luoda Salti master-minion arkkitehtuuri Vagrantilla, joka luo kahd
 
 <img width="576" height="378" alt="Näyttökuva 2025-10-28 kello 8 30 58" src="https://github.com/user-attachments/assets/79f201a9-74c3-464f-8b00-b7a2eef0003a" />
 
+## b) 
+
+Loin uuden virtuaalikoneen:
+
+<img width="529" height="623" alt="Näyttökuva 2025-11-07 kello 14 16 18" src="https://github.com/user-attachments/assets/5a30cf73-79d5-48e6-a09a-7dd569644277" />
+
+## c)
+
+Tarkistin koneiden osoitteet:
+
+<img width="1280" height="800" alt="oikea h3" src="https://github.com/user-attachments/assets/638fae9e-5d8f-4ef7-ac2d-e910136161c0" />
+Master
+
+<img width="1280" height="800" alt="VirtualBox_DebMin_06_11_2025_19_45_29" src="https://github.com/user-attachments/assets/285d5241-37d1-4c1b-8dd9-2964d0aa9b6c" />
+Minion
+
+Pingasin koneet toisiinsa:
+
+<img width="1280" height="800" alt="VirtualBox_DebianJoonasI_06_11_2025_19_46_11" src="https://github.com/user-attachments/assets/eb974ad0-4aa5-44bc-a4a9-266bd7de6214" />
+Master pingaa minioniin
+
+<img width="1280" height="800" alt="VirtualBox_DebMin_06_11_2025_19_46_43" src="https://github.com/user-attachments/assets/ecdf0577-83e0-4c3e-aa96-c3b03be87d3f" />
+Minion pingaa masteriin
