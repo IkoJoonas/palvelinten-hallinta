@@ -36,7 +36,7 @@ Karvinen 2023: https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-
 
 ## Tausta
 
-Tehtävänä oli luoda Salti master-minion arkkitehtuuri Vagrantilla, joka luo kahden Linux virtuaalikoneen verkon. En löytänyt Hashicorpin sivuilta Debian 13 Trixie:tä joka olisi rakennettu toimimaan arm64 arkkitehtuuriin. Päätin kokeilla saanko toteutettua tehtävän ilman Vagrantia, luomalla virtuaalikoneet manuaalisesti.
+Tehtävänä oli luoda Salt master-minion arkkitehtuuri Vagrantilla, joka luo kahden Linux virtuaalikoneen verkon. En löytänyt Hashicorpin sivuilta Debian 13 Trixie:tä joka olisi rakennettu toimimaan arm64 arkkitehtuuriin. Päätin kokeilla saanko toteutettua tehtävän ilman Vagrantia, luomalla virtuaalikoneet manuaalisesti.
 
 ## a)
 
