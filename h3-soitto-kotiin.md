@@ -40,6 +40,8 @@ Tehtävänä oli luoda Salt master-minion arkkitehtuuri Vagrantilla, joka luo ka
 
 ## a)
 
+Olin asentanut Vagrantin koneelleni aiemmin.
+
 <img width="576" height="378" alt="Näyttökuva 2025-10-28 kello 8 30 58" src="https://github.com/user-attachments/assets/79f201a9-74c3-464f-8b00-b7a2eef0003a" />
 
 ## b) 
@@ -143,3 +145,23 @@ sudo salt '*' cmd.run 'cat /etc/kokeilu'
 Halusin olla täysin varma, että olin onnistunut tässä, niin kävin vielä tarkistamassa tiedoston minion-koneelta:
 
 <img width="1280" height="800" alt="VirtualBox_DebMin_07_11_2025_14_59_56" src="https://github.com/user-attachments/assets/d0e7c639-8ff7-4324-bc4f-750f27dcb918" />
+
+## Yhteenveto
+
+Mielestäni onnistuin tehtävässä, vaikka en käyttänytkään Vagranttia.
+
+## Lähteet
+
+Karvinen 2021: https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/
+
+Karvinen 2018: https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux
+
+Karvinen 2023: https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file kohdat:
+
+Infra as Code - Your wishes as a text file
+
+top.sls - What Slave Runs What States
+
+Chapter 6. Virtual Networking: https://www.virtualbox.org/manual/ch06.html kohta:
+
+6.2. Introduction to Networking Modes
