@@ -103,3 +103,43 @@ sudo salt '*' cmd.run 'whoami'
 sudo salt '*' cmd.run 'hostname -I'
 
 <img width="1280" height="800" alt="VirtualBox_DebianJoonasI_06_11_2025_19_45_11" src="https://github.com/user-attachments/assets/e5b12d37-3e62-48cb-b5bc-d1040ecf1b4b" />
+
+## e)
+
+Kokeilin pkg ja file tiloja.
+
+Pkg:
+
+sudo salt '*' pkg.install httpie
+
+<img width="1280" height="800" alt="VirtualBox_DebianJoonasI_06_11_2025_19_48_45" src="https://github.com/user-attachments/assets/94792367-0aab-473b-bf57-f0baf6814c83" />
+
+File:
+
+Ensimmäiseksi loin tekstitiedoston:
+
+<img width="1280" height="800" alt="VirtualBox_DebianJoonasI_07_11_2025_14_56_47" src="https://github.com/user-attachments/assets/81ba286f-690b-4980-a7b9-32fb979628b9" />
+
+Tämän jälkeen loin .sls tiedoston:
+
+<img width="1280" height="800" alt="VirtualBox_DebianJoonasI_07_11_2025_14_54_36" src="https://github.com/user-attachments/assets/77a1b537-8dbe-4d13-afa9-d2d936e90745" />
+
+Suoritin masterilla komennolla:
+
+sudo salt '*' state.apply kokeilu
+
+<img width="1280" height="800" alt="master minion file" src="https://github.com/user-attachments/assets/6ed90da7-8904-4016-8ea8-54bb1075cba3" />
+
+Halusin vielä varmistua idempotentista, joten suoritin komennon uudestaan:
+
+<img width="1280" height="800" alt="VirtualBox_DebianJoonasI_07_11_2025_14_57_36" src="https://github.com/user-attachments/assets/fb5f222b-746b-4856-beb9-ebc8e625063a" />
+
+Tarkistin, että tiedosto on päivittynyt komennolla:
+
+sudo salt '*' cmd.run 'cat /etc/kokeilu'
+
+<img width="1280" height="800" alt="VirtualBox_DebianJoonasI_07_11_2025_14_57_52" src="https://github.com/user-attachments/assets/89704815-ac45-4276-a353-a626e640b435" />
+
+Halusin olla täysin varma, että olin onnistunut tässä, niin kävin vielä tarkistamassa tiedoston minion-koneelta:
+
+<img width="1280" height="800" alt="VirtualBox_DebMin_07_11_2025_14_59_56" src="https://github.com/user-attachments/assets/d0e7c639-8ff7-4324-bc4f-750f27dcb918" />
