@@ -34,5 +34,11 @@ Karvinen 2023: https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-
 
 -Top file mitä tiloja suoritetaan millekin minionille
 
+## Tausta
+
+Tehtävä oli luoda Salti master-minion arkkitehtuuri Vagrantilla, joka luo kahden Linux virtuaalikoneen verkon. En löytänyt Hashicorpin sivuilta Debian 13 Trixie:tä joka olisi rakennettu toimimaan arm64 arkkitehtuuriin. Päätin kokeilla saanko toteutettua tehtävän ilman Vagrantia, luomalla virtuaalikoneet manuaalisesti.
+
 ## a)
+
+<img width="576" height="378" alt="Näyttökuva 2025-10-28 kello 8 30 58" src="https://github.com/user-attachments/assets/79f201a9-74c3-464f-8b00-b7a2eef0003a" />
 
