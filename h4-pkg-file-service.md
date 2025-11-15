@@ -14,7 +14,9 @@ CPU: 1
 
 ## x)
 
-hudwhfq
+-Package-file-service ovat yleisimmät tilafunktiot.
+
+-Asenna, muuta konfiguraatio tiedostoa, uudelleen käynnistä demoni.
 
 ## a)
 
@@ -82,9 +84,9 @@ Yhteys onnistui.
 
 ## Lähteet
 
--Karvinen 2018: https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh
+Karvinen 2018: https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh
 
--Aapo Tavio H4 Pkg-file-service: https://aapotavio.com/configuration-management-systems/h4-pkg-file-service/
+Aapo Tavio H4 Pkg-file-service: https://aapotavio.com/configuration-management-systems/h4-pkg-file-service/
 
 
 
