@@ -11,9 +11,3 @@ Ram: 4GB
 Levytila: 60GB
 
 CPU: 1 
-
-## x)
-----
-  --
-
-## a) 
